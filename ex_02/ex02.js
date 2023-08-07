@@ -1,6 +1,6 @@
 // Create an array of strings and write a function to find the longest string in the array.
 
-let strings = ['ta', 'pano', 'egg', 'la'];
+const strings = ['ta', 'pano', 'egg', 'la'];
 
 function findBigger(strings) {
   let size = 0;

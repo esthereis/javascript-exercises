@@ -1,6 +1,6 @@
 // Create an array of numbers and write a function to find the sum of all elements.
 
-let numbers = [1, 2, 3, 4, 5, 6, 7];
+const numbers = [1, 2, 3, 4, 5, 6, 7];
 
 function sumArray(numbers) {
   let sum = 0;
