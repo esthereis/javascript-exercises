@@ -3,12 +3,12 @@
 //C = (F - 32) / (9/5)
 
 function toFahr(c) {
-  f = c * (9 / 5) + 32;
+  const f = c * (9 / 5) + 32;
   return f;
 }
 
 function toCel(f) {
-  c = (f - 32) / (9 / 5);
+  const c = (f - 32) / (9 / 5);
   return c;
 }
 
