@@ -1,0 +1,90 @@
+body {
+  scroll-behavior: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin: 1rem;
+}
+
+#buttonTextChanging,
+#shiftSquare,
+#citiesGalery img {
+  cursor: pointer;
+}
+
+#citiesGalery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#citiesGalery img {
+  height: 20rem;
+}
+
+#numbersList,
+#destinyList {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+  list-style: none;
+  font-size: 2rem;
+}
+
+#destinyList {
+  width: 15rem;
+  height: 5rem;
+
+  border: 1px dotted black;
+  list-style: none;
+}
+
+#targetElement {
+  margin-top: 15rem;
+}
+
+#close {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+
+  text-align: end;
+}
+
+.shape {
+  width: 12rem;
+  height: 12rem;
+  padding: 0.5rem;
+}
+
+.redElement {
+  background-color: red;
+  color: white;
+}
+
+.centralizedItem {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+
+  gap: 2rem;
+}
+
+.imgSquare {
+  width: 10rem;
+  height: auto;
+}
+
+.draggable {
+  cursor: move;
+}
