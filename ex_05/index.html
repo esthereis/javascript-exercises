@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM js</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="rowContainer">
+      <div class="shape centralizedItem redElement">
+        <p id="inTextSq">Select and modify this text with ID</p>
+        <p id="pRemoved">This p will be removed</p>
+      </div>
+
+      <img
+        id="randomImage"
+        class="imgSquare"
+        src="https://www.fleur.nl/media/catalog/product/cache/1bdaada4d7caeef0c7b86000b1f0e2db/1/m/1modetu12_1_2.png"
+        alt="randomImage"
+      />
+
+      <div class="shape centralizedItem redElement">
+        <a id="changedLink" href="https://duckduckgo.com/" target="_blank"
+          >This link is changed with Dom</a
+        >
+      </div>
+
+      <button id="buttonTextChanging">Change Text</button>
+
+      <div id="shiftSquare" class="shape centralizedItem redElement">
+        This element changes when clicked.
+      </div>
+    </div>
+
+    <div class="rowContainer secondRow">
+      <form class="shape redElement">
+        <label for="toDoList">To do List:</label><br />
+        <input id="inputTask" type="text" placeholder="add new task..." />
+        <ul id="listTask"></ul>
+      </form>
+
+      <div id="citiesGalery">
+        <img
+          src="https://i.pinimg.com/564x/34/fe/dd/34feddf8a34db6f4ed6cbfaac066bab7.jpg"
+          alt="parisView"
+        />
+        <img
+          src="https://i.pinimg.com/564x/3b/3f/8a/3b3f8a9b9de074630e1015bcf7c9f345.jpg"
+          alt="amsterdamView"
+        />
+        <img
+          src="https://i.pinimg.com/564x/08/bb/46/08bb46158b9ad11ec40f291409056f61.jpg"
+          alt="parisView"
+        />
+      </div>
+    </div>
+
+    <div class="rowContainer">
+      <form class="shape redElement">
+        <label for="title">Contact:</label><br /><br />
+        <label for="name">Name:</label>
+        <input
+          id="nameInput"
+          type="text"
+          name="nameField"
+          placeholder="Name..."
+        />
+        <label for="telefone">Telefone:</label>
+        <input
+          id="telefoneInput"
+          type="text"
+          name="telefoneField"
+          placeholder="Telefone..."
+        />
+        <button id="sendButton">Send</button>
+      </form>
+
+      <ul id="numbersList">
+        <li class="draggable" draggable="true">1</li>
+        <li class="draggable" draggable="true">2</li>
+        <li class="draggable" draggable="true">3</li>
+        <li class="draggable" draggable="true">4</li>
+        <li class="draggable" draggable="true">5</li>
+      </ul>
+      <div id="destinyList"></div>
+
+      <div>
+        <button id="scrollButton" data-scroll-target="#targetElement">
+          Roll Down
+        </button>
+        <div id="targetElement">Target Element</div>
+      </div>
+
+      <div>
+        <button id="modalButton">Open modal</button>
+        <div id="myModal" class="modal">
+          <div class="modalContent redElement shape">
+            <span id="close">&times;</span>
+            <p>This is a modal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
